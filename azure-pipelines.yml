@@ -13,3 +13,8 @@ extends:
     package_version: 2.39.2
     source_repository: public-conan-center
     destination_repository: ccdc-3rdparty-conan
+    platforms:
+      - centos7_gcc10
+      - ubuntu2004_gcc10
+      - macos11_xcode12
+      - macos12_xcode13
